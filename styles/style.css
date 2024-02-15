@@ -34,16 +34,11 @@ h2 {
 }
 
 h3 {
-  font-size: 3.2rem;
+  font-size: 1.6rem;
   font-weight: 700;
-  line-height: 0.3;
-  padding-bottom: 5px;
+  line-height: 1.8;
+  padding-bottom: 20px;
   margin-top: 0.8rem;
-}
-@media screen and (max-width: 530px) {
-  h3 {
-    font-size: 18px;
-  }
 }
 
 p {
@@ -211,13 +206,11 @@ a.active::before {
 @media screen and (max-width: 650px) {
   .home {
     padding: 15rem 7% 2rem 7%;
-    font-size: 30%;
   }
 }
 @media screen and (max-width: 580px) {
   .home {
     padding: 10rem 1% -6rem 1%;
-    font-size: 30%;
   }
 }
 .home .home-content {
@@ -367,13 +360,13 @@ a.active::before {
 .about .about-content .heading {
   font-size: 4.5rem;
 }
-.about .about-content h3 {
+.about .about-content h4 {
   text-align: left;
   line-height: 1.2;
   font-size: 1.8rem;
 }
 @media screen and (max-width: 530px) {
-  .about .about-content h3 {
+  .about .about-content h4 {
     font-size: 1rem;
   }
 }
@@ -382,6 +375,11 @@ a.active::before {
   font-weight: 400;
   font-size: 16px;
   text-transform: capitalize;
+}
+@media screen and (max-width: 530px) {
+  .about .about-content span {
+    font-size: 12px;
+  }
 }
 .about .about-content p {
   text-transform: capitalize;
@@ -476,6 +474,11 @@ a.active::before {
   font-size: 2.6rem;
   padding-bottom: 5rem;
   transition: 0.5s ease;
+}
+@media screen and (max-width: 800px) {
+  .services .services-container .services-box h3 {
+    font-size: 2rem;
+  }
 }
 .services .services-container .services-box h3:hover {
   color: #754ef9;
