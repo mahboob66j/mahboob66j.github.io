@@ -4,6 +4,7 @@ a{
 }
 span{
     color: $main-color;
+   
 }
 h2{
     font-size: 2rem;
@@ -17,18 +18,17 @@ h2{
     
 }
 h3 {
-    font-size: 3.2rem;
+    font-size: 1.6rem;
     font-weight: 700;
-    line-height: 0.3;
-    padding-bottom: 5px;
+    line-height: 1.8;
+    padding-bottom: 20px;
     margin-top: 0.8rem;
   
-    @media screen and (max-width: 530px) {
-      font-size: 18px;
-     }
+   
   }
   p {
     font-size: 1.6rem;
+   
   }
   .btn {
     display: inline-block;
