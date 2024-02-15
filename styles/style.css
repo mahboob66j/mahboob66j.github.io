@@ -35,7 +35,7 @@ h3 {
   padding-bottom: 5px;
   margin-top: 0.8rem;
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 580px) {
   h3 {
     font-size: 1.6rem;
   }
@@ -57,6 +57,11 @@ p {
   font-weight: 600;
   transition: 0.5s ease;
   border: 0.2rem solid transparent;
+}
+@media screen and (max-width: 390px) {
+  .btn {
+    font-size: 1rem;
+  }
 }
 .btn:hover {
   background-color: transparent;
@@ -194,7 +199,7 @@ a.active::before {
 }
 @media screen and (max-width: 580px) {
   .home {
-    padding: 10rem 1% 2rem 1%;
+    padding: 10rem 1% -6rem 1%;
     font-size: 30%;
   }
 }
@@ -214,7 +219,7 @@ a.active::before {
 }
 @media screen and (max-width: 580px) {
   .home .home-content h1 {
-    font-size: 4rem;
+    font-size: 2.6rem;
   }
 }
 .home .home-content .social-media a {
@@ -236,6 +241,12 @@ a.active::before {
   .home .home-content .social-media a {
     width: 3rem;
     height: 3rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .home .home-content .social-media a {
+    font-size: 1rem;
+    margin: 2.5rem 1rem 3rem 0;
   }
 }
 .home .home-content .social-media a a:hover {
@@ -293,7 +304,7 @@ a.active::before {
 @media screen and (max-width: 650px) {
   .about {
     max-width: 600px;
-    padding: 3% 5rem;
+    padding: 3% 1rem;
   }
 }
 .about .about-img img {
@@ -313,8 +324,20 @@ a.active::before {
 }
 @media screen and (max-width: 700px) {
   .about .about-img img {
-    width: 250px;
-    height: 350px;
+    width: 300px;
+    height: 400px;
+    border-radius: 0;
+    align-items: center;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 380px) {
+  .about .about-img img {
+    width: 300px;
+    height: 400px;
+    border-radius: 0;
+    align-items: center;
+    margin: auto;
   }
 }
 @media screen and (max-width: 800px) {
