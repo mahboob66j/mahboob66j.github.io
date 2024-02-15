@@ -139,7 +139,10 @@ a.active::before {
       font-weight: 700;
       margin-bottom: 0.3rem;
       @media screen and (max-width: 580px) {
-        font-size: 2.6rem;
+        font-size: 4.6rem;
+      }
+      @media screen and (max-width: 530px) {
+        font-size: 3.6rem;
       }
       
     }
@@ -265,6 +268,9 @@ a.active::before {
       text-align: left;
       line-height: 1.2;
       font-size: 1.8rem;
+      @media screen and (max-width: 530px) {
+       font-size: 1rem;
+      }
     }
     span {
       color: $text-color;
@@ -367,9 +373,8 @@ a.active::before {
         font-size: 2.6rem;
         padding-bottom: 5rem;
         transition: 0.5s ease;
-        @media screen and (max-width: 380px) {
-          font-size: 1.6rem;
-        }
+       
+        
 
         &:hover {
           color: $main-color;
@@ -440,6 +445,10 @@ a.active::before {
       padding-bottom: $spacing * 15;
       padding-top: $spacing * 15;
       font-weight: 600;
+     
+   
+     
+
     }
   }
 }
@@ -509,8 +518,8 @@ a.active::before {
         transition: all 0.5s ease;
         width: 30%;
         @media screen and (max-width: 650px) {
-          font-size: 10px;
-          padding: 11px 16px;
+          font-size: 8px;
+          padding: 11px 5px;
         }
         &:hover {
           background-color: transparent;
